@@ -1,0 +1,43 @@
+/* ________  ________ */
+
+
+/* ________ COLOR VARS ________ */
+
+:root {
+  --primary-bg-color: #000000;
+  --secondary-bg-color: rgb(59, 59, 59);
+  --hover-bg-color: #080808;
+  --primary-text-color: #FFFFFF;
+  --secondary-text-color: #6e767d;
+  --accent-text-color: rgb(29,161,242);
+}
+
+/* ________ GLOBAL PROPERTIES ________ */
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover, li a:active {
+  color: var(--accent-text-color);
+}
+
+p {
+  font-size: 13px;
+}

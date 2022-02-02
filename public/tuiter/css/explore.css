@@ -1,0 +1,105 @@
+/* ________ Explore List Blocks ________ */
+
+.wd-explore-list {
+  display: block;
+}
+
+.wd-explore-block {
+border: 0.5px solid var(--secondary-bg-color);
+margin-bottom: -1px;
+}
+
+.wd-explore-block:hover {
+  background-color: var(--hover-bg-color);
+}
+
+.wd-explore-block-content {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wd-explore-block-content-text {
+  width: max-content;
+
+}
+
+.wd-explore-block-content-text p {
+  color: var(--secondary-text-color);
+}
+
+.wd-explore-block-content-headline {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.wd-explore-block-content-options {
+  float:right;
+}
+
+.wd-explore-block-account {
+  display: flex;
+  vertical-align: middle;
+
+}
+
+.wd-explore-block-account img {
+  width: 16px;
+  height: 16px;
+  margin-top: 12px;
+  margin-right: 5px;
+
+}
+
+.wd-explore-block-account-name {
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  margin-right: 5px;
+}
+
+.wd-explore-block-content-image {
+      width: 100px;
+}
+
+.wd-explore-block-content-image img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.wd-icon-verified,
+.wd-icon-three-dots {
+  margin: 0px 0px 0px 2px;
+  width: 16px;
+  height: auto;
+}
+
+.wd-icon-gear {
+  width: 20px;
+  height: 20px;
+}
+
+.wd-explore-search {
+  margin: 0px 4px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--secondary-bg-color)
+}
+
+.wd-tab a{
+  color: var(--secondary-text-color);
+  padding-bottom: 16px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.wd-tab-active a{
+  color: var(--accent-text-color);
+
+}
+
+.wd-tab-active {
+  padding-bottom: 16px;
+  border-bottom: 3px solid var(--accent-text-color);
+
+}
