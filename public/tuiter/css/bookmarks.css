@@ -1,0 +1,100 @@
+/* ________ Bookmarks Page ________ */
+
+.wd-bookmarks-bar {
+}
+
+.wd-tuit-block {
+  display: flex;
+}
+
+.wd-tuit-block-profile-img {
+  margin-right: 12px;
+  border-radius: 50%;
+}
+.wd-tuit-block p {
+  font-size: 15px;
+  margin: 12px 0px;
+}
+
+.wd-tuit-block a {
+  color: inherit;
+}
+
+.wd-tuit-block-action-list {
+  display: flex;
+  justify-content: space-around;
+}
+.wd-tuit-block-action a {
+  display: inline-flex;
+}
+
+.wd-tuit-block-action p {
+  color: var(--secondary-text-color);
+}
+
+.wd-icon-heart,
+.wd-icon-heart-fill,
+.wd-icon-share,
+.wd-icon-reply,
+.wd-icon-retuit {
+  padding-right: 12px;
+}
+
+.wd-icon-link {
+  padding-right: 6px;
+}
+
+.wd-tuit-block-action-list {
+  max-width: 486px;
+}
+
+.wd-tuit-block-link-section {
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 15px;
+  min-width: 504px;
+  max-width: 504px;
+}
+
+.wd-tuit-block-link-section-image {
+  background-color: red;
+  background-image: url("profile.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  outline: 1px solid var(--secondary-text-color);
+}
+
+.wd-tuit-block-link-section-text {
+  padding: 16px;
+}
+
+.wd-tuit-block-link-section h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.wd-tuit-block-link-section p {
+  color: var(--secondary-text-color);
+}
+
+.wd-tuit-block-link {
+  display: inline-flex;
+}
+.wd-tuit-block-link p {
+  margin: 0px;
+}
+
+.wd-tuit-block-handle {
+  display: inline-flex;
+}
+.wd-tuit-block-handle p {
+  color: var(--secondary-text-color);
+  margin: 0px 12px;
+}
+.wd-tuit-block-handle a{
+  font-weight: bold;
+}
