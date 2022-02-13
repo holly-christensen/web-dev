@@ -5,9 +5,9 @@
   --secondary-bg-color: rgb(59, 59, 59);
   --hover-bg-color: #080808;
   --primary-text-color: #FFFFFF;
-  /* --secondary-text-color: #6e767d; */
   --secondary-text-color: rgb(110, 118, 125);
   --accent-text-color: rgb(29,161,242);
+  --accent-color-pink: #FA1980;
 }
 
 /* ________ GLOBAL PROPERTIES ________ */

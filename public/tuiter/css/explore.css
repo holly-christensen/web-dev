@@ -114,14 +114,14 @@ margin-bottom: -1px;
   margin: 0px;
 }
 
-.wd-tab a{
+.wd-tab a {
   color: var(--secondary-text-color);
   padding-bottom: 16px;
   font-weight: bold;
   font-size: 15px;
 }
 
-.wd-tab-active a{
+.wd-tab-active a {
   color: var(--accent-text-color);
 
 }

@@ -1,10 +1,44 @@
 /* ________ Bookmarks Page ________ */
 
+.wd-bookmarks-bar, .wd-tuit-block, .wd-tuit-block-link-section  {
+    border: .5px solid var(--secondary-bg-color);
+}
+
+ul, li {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
 .wd-bookmarks-bar {
+    display: flex;
+    padding: 12px;
+}
+.wd-bookmarks-bar div {
+    width: 100%;
+}
+
+.wd-bookmarks-bar h2{
+    display: flex;
+    margin: 0px;
+}
+
+.wd-icon-three-dots:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.wd-icon-md {
+  width: 20px;
+  height: 10px;
+}
+.wd-icon-three-dots{
+  padding: 15px 10px;
+  border-radius: 50%;
 }
 
 .wd-tuit-block {
   display: flex;
+  margin-top: none;
+  padding: 12px;
 }
 
 .wd-tuit-block-profile-img {
@@ -49,23 +83,18 @@
 }
 
 .wd-tuit-block-link-section {
-  border: 1px solid var(--secondary-text-color);
   border-radius: 15px;
   min-width: 504px;
   max-width: 504px;
 }
 
 .wd-tuit-block-link-section-image {
-  background-color: red;
-  background-image: url("profile.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 504px;
   height: 264px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  outline: 1px solid var(--secondary-text-color);
+  outline: 1px solid var(--secondary-bg-color);
+  overflow-y: hidden;
 }
 
 .wd-tuit-block-link-section-text {
@@ -77,8 +106,9 @@
   font-weight: normal;
 }
 
-.wd-tuit-block-link-section p {
+.wd-tuit-block-link-section p, .wd-bookmarks-bar a {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .wd-tuit-block-link {
@@ -88,7 +118,8 @@
   margin: 0px;
 }
 
-.wd-tuit-block-handle {
+.wd-tuit-block-handle,  .wd-tuit-block-handle div{
+  width: 100%;
   display: inline-flex;
 }
 .wd-tuit-block-handle p {
@@ -97,4 +128,8 @@
 }
 .wd-tuit-block-handle a{
   font-weight: bold;
+}
+
+.wd-tweet-action-heart-active {
+  color: var(--accent-color-pink) !important;
 }
