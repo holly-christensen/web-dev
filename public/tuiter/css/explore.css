@@ -1,133 +1,17 @@
-/* ________ Explore Page ________ */
-
-.wd-explore-list {
-  display: block;
+.wd-cog {
+  color: #0c6cfc;
 }
 
-.wd-explore-block {
-border: 0.5px solid var(--secondary-bg-color);
-margin-bottom: -1px;
+.fa-stack-1x {
+  text-align: left;
+  margin-left: 4px;
+  margin-top: -7px;
 }
 
-.wd-explore-block:hover {
-  background-color: var(--hover-bg-color);
+.wd-ellipses {
+  padding-left: 2px;
 }
 
-.wd-explore-block-content {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.wd-explore-block-content-text {
-  width: max-content;
-
-}
-
-.wd-explore-block-content-text p {
-  color: var(--secondary-text-color);
-}
-
-.wd-explore-block-content-headline {
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.wd-explore-block-content-options {
-  float:right;
-}
-
-.wd-explore-block-account {
-  display: flex;
-  vertical-align: middle;
-
-}
-
-.wd-explore-block-account img {
-  width: 16px;
-  height: 16px;
-  margin-top: 12px;
-  margin-right: 5px;
-
-}
-
-.wd-explore-block-account-name {
-  font-weight: bold;
-  font-size: 13px;
-  color: white;
-  margin-right: 5px;
-}
-
-.wd-explore-block-content-image {
-      width: 100px;
-}
-
-.wd-explore-block-content-image img {
-  width: 100px;
-  border-radius: 15px;
-}
-
-.wd-icon-verified,
-.wd-icon-three-dots {
-  margin: 0px 0px 0px 2px;
-  width: 16px;
-  height: auto;
-}
-
-.wd-icon-gear {
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-.wd-icon-gear:hover, .wd-icon-three-dots:hover {
-  background-color: var(--secondary-bg-color);
-}
-
-.wd-icon-three-dots {
-    padding: 15px 10px;
-    border-radius: 50%;
-}
-
-.wd-explore-search {
-  margin: 0px 4px;
-  padding: 12px 20px;
-  border-radius: 50px;
-  background-color: var(--secondary-bg-color);
-  color: var(--secondary-text-color);
-  border: none;
-  width: 100%;
-  font-size: 15px;
-
-}
-
-.wd-search-settings-bar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.wd-tab {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px;
-}
-
-.wd-tab a {
-  color: var(--secondary-text-color);
-  padding-bottom: 16px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.wd-tab-active a {
-  color: var(--accent-text-color);
-
-}
-
-.wd-tab-active {
-  padding-bottom: 16px;
-  border-bottom: 3px solid var(--accent-text-color);
-
+.wd-more {
+  margin-left: -15px !important;
 }

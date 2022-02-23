@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <title>Explore</title>
-    <!-- <script src="https://use.fontawesome.com/94ca2f442c.js"></script> -->
     <link href="./../vendors/fontawesome/css/all.min.css" rel="stylesheet" />
-
     <link
       href="./../vendors/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/explore.css">
+
   </head>
   <body>
-    <div class="container">
-      <div class="row">
+    <div class="container mt-4">
+      <!-- <div class="row">
         <div class="col-2 col-lg-1 col-xl-2 bg-warning">
           <h3>Column A</h3>
         </div>
@@ -23,7 +23,7 @@
         <div class="d-none d-lg-block col-lg-4 col-xl-3 bg-danger">
           <h3>Column C</h3>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <!-- NAVIGATION SIDEBAR -->
@@ -75,34 +75,44 @@
               <p class="p-0 m-0 d-none d-xl-block">Profile</p></a
             >
             <a href="#" class="list-group-item list-group-item-action d-inline-flex"
-              ><i class="fas fa-circle p-1"></i>
-              <p class="p-0 m-0 d-none d-xl-block">More</p></a
+              >
+              <span class="fa-stack p-1" style="vertical-align: top;">
+                  <i class="fas fa-circle fa-stack-1x"></i>
+                  <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse fa-xs wd-ellipses"></i>
+                </span>
+
+              <p class="p-0 m-0 d-none d-xl-block wd-more">More</p></a
             >
           </div>
           <button type="button" class="btn btn-primary rounded-pill w-100 mt-2">
-            Tweet
+            Tuit
           </button>
         </div>
 
         <!-- EXPLORE -->
 
         <div class=" col-10 col-lg-7 col-xl-7">
+
           <!-- SEARCH -->
-          <div class="input-group mb-3 border rounded-pill bg-white">
-            <span
-              class="input-group-text bg-transparent border-0"
-              id="basic-addon1"
-              ><i class="fa fa-search"></i
-            ></span>
-            <input
-              type="text"
-              class="form-control bg-transparent border-0 rounded-right"
-              placeholder="Search Tuiter"
-              aria-label="Search Tuiter"
-              aria-describedby="basic-addon1"
-            />
-            <i class="fa fa-cog fa-2x"></i>
+
+          <div class="d-flex">
+            <div class="input-group mb-3 border rounded-pill bg-white  mx-2 ml-0">
+              <span
+                class="input-group-text bg-transparent border-0"
+                id="basic-addon1"
+                ><i class="fa fa-search"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control bg-transparent border-0 rounded-right "
+                placeholder="Search Tuiter"
+                aria-label="Search Tuiter"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <i class="fa fa-cog fa-2x wd-cog"></i>
           </div>
+
 
           <!-- TABS -->
 
@@ -220,66 +230,80 @@
           </div>
         </div>
 
+
+
         <!-- FOLLOW SIDEBAR -->
         <div class="d-none d-lg-block col-lg-4 col-xl-3">
           <div class="list-group">
             <div class="list-group-item">
-              <p class="fw-bold m-0 p-0">Who to follow</p>
+              <p class="fw-bold my-0 py-0">Who to follow</p>
             </div>
             <div class="list-group-item">
-              <img src="images/java-logo.png" alt="Java Logo" width="48" class="float-start rounded-pill mr-4">
+              <img src="images/java-logo.png" alt="Java Logo" width="48" class="float-start rounded-pill mx-0">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill float-end mt-1"
               >
                 Follow
               </button>
-              <p class="fw-bold m-0 p-0">Java</p>
-              <p class="text-muted m-0 p-0">@Java</p>
+              <div class="mx-0">
+                <p class="fw-bold my-0 py-0">Java</p>
+                <p class="text-muted my-0 py-0">@Java</p>
+              </div>
+
             </div>
             <div class="list-group-item">
-              <img src="images/relativity-logo.jpeg" alt="Relativity Logo" width="48" class="float-start rounded-pill mr-4">
+              <img src="images/relativity-logo.jpeg" alt="Relativity Logo" width="48" class="float-start rounded-pill mx-0">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill float-end mt-1"
               >
                 Follow
               </button>
-              <p class="fw-bold m-0 p-0">Relativity Space</p>
-              <p class="text-muted m-0 p-0">@relativityspace</p>
+              <div class="mx-0">
+                <p class="fw-bold my-0 py-0">Relativity Space</p>
+                <p class="text-muted my-0 py-0">@relativityspace</p>
+              </div>
+
             </div>
             <div class="list-group-item">
-              <img src="images/virgin-logo.png" alt="Virgin Logo" width="48" class="float-start rounded-pill mr-4">
+              <img src="images/virgin-logo.png" alt="Virgin Logo" width="48" class="float-start rounded-pill mx-0">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill float-end mt-1"
               >
                 Follow
               </button>
-              <p class="fw-bold m-0 p-0">Virgin Galactic</p>
-              <p class="text-muted m-0 p-0">@virgingalactic</p>
+              <div class="mx-0">
+                <p class="fw-bold my-0 py-0">Virgin Galactic</p>
+                <p class="text-muted my-0 py-0">@virgingalactic</p>
+              </div>
             </div>
             <div class="list-group-item">
-              <img src="images/nasa-logo.png" alt="NASA Logo" width="48" class="float-start rounded-pill mr-4">
+              <img src="images/nasa-logo.png" alt="NASA Logo" width="48" class="float-start rounded-pill mx-0">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill float-end mt-1"
               >
                 Follow
               </button>
-              <p class="fw-bold m-0 p-0">NASA</p>
-              <p class="text-muted m-0 p-0">@NASA</p>
+              <div class="mx-0">
+                <p class="fw-bold my-0 py-0">NASA</p>
+                <p class="text-muted my-0 py-0">@NASA</p>
+              </div>
             </div>
             <div class="list-group-item">
-              <img src="images/tesla-logo.jpeg" alt="Tesla Logo" width="48" class="float-start rounded-pill mr-4">
+              <img src="images/tesla-logo.jpeg" alt="Tesla Logo" width="48" class="float-start rounded-pill mx-0">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill float-end mt-1"
               >
                 Follow
               </button>
-              <p class="fw-bold m-0 p-0">Tesla</p>
-              <p class="text-muted m-0 p-0">@Tesla</p>
+              <div class="mx-0">
+                <p class="fw-bold my-0 py-0">Tesla</p>
+                <p class="text-muted my-0 py-0">@Tesla</p>
+              </div>
             </div>
           </div>
         </div>
