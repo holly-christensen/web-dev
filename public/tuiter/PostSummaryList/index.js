@@ -1,0 +1,1 @@
+// In the same directory, create an index.js file which implements function PostSummaryList that renders the list of suggested posts at the bottom of the center column of the explore screen shown here on the right. The function should import an array posts from a file called posts.js shown below.

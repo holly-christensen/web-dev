@@ -2,6 +2,7 @@ import NavigationSidebar from "../NavigationSidebar.js";
 import ExploreComponent from "./ExploreComponent.js";
 import WhoToFollowList from "../WhoToFollowList.js";
 
+console.log('hello from explorescreen.js')
 (function ($) {
     $('#wd-explore').append(`
         <div class="row mt-2">
