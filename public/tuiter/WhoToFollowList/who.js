@@ -12,6 +12,6 @@ export default [
     userName: "Virgin Galactic",
     handle: "virgingalactic",
   },
-  { avatarIcon: "../images/nasa-logo.png", userName: "NASA", handle: "NASA" },
-  { avatarIcon: "../images/tesla-logo.png", userName: "Tesla", handle: "Tesla" },
+  { avatarIcon: "../../images/nasa-logo.png", userName: "NASA", handle: "NASA" },
+  { avatarIcon: "../../images/tesla-logo.jpeg", userName: "Tesla", handle: "Tesla" },
 ];
