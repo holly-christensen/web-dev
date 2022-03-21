@@ -1,17 +1,11 @@
 .wd-cog {
-  color: #0c6cfc;
-}
-
-.fa-stack-1x {
-  text-align: left;
-  margin-left: 4px;
-  margin-top: -7px;
-}
-
-.wd-ellipses {
-  padding-left: 2px;
+  color: #2a9fd6;
 }
 
 .wd-more {
   margin-left: -15px !important;
+}
+
+li {
+list-style-type: none;
 }
