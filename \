@@ -1,0 +1,21 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch a6
+# Your branch is ahead of 'origin/a6' by 11 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   ../package-lock.json
+#	modified:   ../package.json
+#	modified:   App.js
+#	modified:   components/hello-world.js
+#	modified:   components/labs/conditional-output/index.js
+#	modified:   components/labs/index.js
+#	modified:   components/labs/todo/TodoItem.js
+#	modified:   components/labs/todo/TodoList.js
+#	modified:   components/labs/todo/index.js
+#	deleted:    components/labs/todo/todos.js
+#	new file:   components/labs/todo/todos.json
+#
