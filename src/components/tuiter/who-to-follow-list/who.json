@@ -5,12 +5,12 @@
     "handle":"Java"
   },
   {
-    "avatarIcon":"./images/relativity-logo.jpeg",
+    "avatarIcon":"../../../public/images/relativity-logo.jpeg",
     "userName":"Relativity Space",
     "handle":"relativityspace"
   },
   {
-    "avatarIcon":"./images/virgin-logo.png",
+    "avatarIcon":"../../../images/virgin-logo.png",
     "userName":"Virgin Galactic",
     "handle":"virgingalactic"
   },
