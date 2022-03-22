@@ -1,4 +1,3 @@
-
 const WhoToFollowListItem = (
     {
         who = {
@@ -8,19 +7,19 @@ const WhoToFollowListItem = (
         }
     }) => {
     return (
-      <div class="list-group-item">
-      <div class="float-start mr-3">
+      <div className={"list-group-item"}>
+      <div className={"float-start mr-3"}>
         <img src={who.avatarIcon} width="48" className="rounded-circle float-start"/>
       </div>
         <button
           type="button"
-          class="btn btn-primary rounded-pill float-end mt-1"
+          className={"btn btn-primary rounded-pill float-end mt-1"}
         >
           Follow
         </button>
-        <div class="mx-0">
-          <p class="fw-bold my-0 py-0">{who.userName}</p>
-          <p class="text-muted my-0 py-0">@{who.handle}</p>
+        <div className={"mx-0"}>
+          <p className={"fw-bold my-0 py-0"}>{who.userName}</p>
+          <p className={"text-muted my-0 py-0"}>@{who.handle}</p>
         </div>
 
       </div>

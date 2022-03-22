@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar/index.js"
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem.js"
 import PostSummaryListItem from "./PostSummaryList/PostSummaryListItem.js"
-import ExploreScreen from "./ExploreScreen/ExploreScreen.js"
+import ExploreScreen from "./ExploreScreen/index.js"
 
 const Tuiter = () => {
     return(

@@ -1,11 +1,15 @@
 import WhoToFollowListItem from "./WhoToFollowListItem.js"
-const whos = require('./who.json');
+import whos from "./who.json";
 
 const WhoToFollowList = () => {
-     whos.map(who => {
-         return(
-             <WhoToFollowListItem who={who}/>
-         );
-     })
-  };
+  return(
+    <ul>
+      {
+        whos.map(post => {
+          return(<WhoToFollowListItem who={who}/>);
+        })
+      }
+    </ul>
+  );
+}
 export default WhoToFollowList;

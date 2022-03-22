@@ -9,7 +9,8 @@ const PostSummaryListItem = (
         }
     }) => {
     return (
-            <div class="card py-2 px-3 d-flex">
+            <>
+            <div className="card py-2 px-3 d-flex">
 
             <div>
                 <img
@@ -19,17 +20,18 @@ const PostSummaryListItem = (
                  alt={post.userName}
                  />
 
-            <p class="text-muted p-0 m-0">{post.topic}</p>
+            <p className="text-muted p-0 m-0">{post.topic}</p>
               <div className={"d-inline-flex"}>
                 <p className={"fw-bold p-0 m-0"}>{post.userName}</p>
                 <i className={"fa fa-check-circle p-1"}></i>
                 <p className={"text-muted p-0 m-0"}>– {post.time}</p>
               </div>
-              <p class={"fw-bold p-0 m-0"}>
+              <p className={"fw-bold p-0 m-0"}>
                 {post.title}
             </p>
                 </div>
             </div>
+            </>
 
       )
   };
