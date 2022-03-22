@@ -1,4 +1,4 @@
-import PostSummaryListItem from "./PostSummaryListItem.js"
+import PostSummaryListItem from "./post-summary-list-item.js"
 const posts = require('./posts.json');
 
 

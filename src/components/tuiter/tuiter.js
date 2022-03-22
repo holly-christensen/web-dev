@@ -1,6 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import ExploreScreen from "./ExploreScreen/index.js"
+import { Link } from "react-router-dom";
+import ExploreScreen from "./explore-screen/index.js"
 
 const Tuiter = () => {
     return(
