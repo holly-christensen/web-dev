@@ -9,7 +9,7 @@ const WhoToFollowListItem = (
     return (
       <div className={"list-group-item"}>
       <div className={"float-start mr-3"}>
-        <img src={who.avatarIcon} width="48" className="rounded-circle float-start"/>
+        <img src={who.avatarIcon} width="48" className="rounded-circle float-start" alt="profile-image"/>
       </div>
         <button
           type="button"
