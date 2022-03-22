@@ -5,7 +5,7 @@ const WhoToFollowList = () => {
   return(
     <ul>
       {
-        whos.map(post => {
+        whos.map(who => {
           return(<WhoToFollowListItem who={who}/>);
         })
       }
