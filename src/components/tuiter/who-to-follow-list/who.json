@@ -1,16 +1,16 @@
 [
   {
-    "avatarIcon":"./images/java-logo.png",
+    "avatarIcon":"../images/java-logo.png",
     "userName":"Java",
     "handle":"Java"
   },
   {
-    "avatarIcon":"../../../public/images/relativity-logo.jpeg",
+    "avatarIcon":"../public/images/relativity-logo.jpeg",
     "userName":"Relativity Space",
     "handle":"relativityspace"
   },
   {
-    "avatarIcon":"../../../images/virgin-logo.png",
+    "avatarIcon":"../images/virgin-logo.png",
     "userName":"Virgin Galactic",
     "handle":"virgingalactic"
   },
@@ -20,7 +20,7 @@
     "handle":"NASA"
   },
   {
-    "avatarIcon":"./images/tesla-logo.jpeg",
+    "avatarIcon":"../images/tesla-logo.jpeg",
     "userName":"Tesla",
     "handle":"Tesla"
   }
