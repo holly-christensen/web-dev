@@ -1,16 +1,16 @@
 [
   {
-    "avatarIcon":"../images/java-logo.png",
+    "avatarIcon":"../public/tuiter/images/java-logo.png",
     "userName":"Java",
     "handle":"Java"
   },
   {
-    "avatarIcon":"../public/images/relativity-logo.jpeg",
+    "avatarIcon":"../public/tuiter/images/relativity-logo.jpeg",
     "userName":"Relativity Space",
     "handle":"relativityspace"
   },
   {
-    "avatarIcon":"../images/virgin-logo.png",
+    "avatarIcon":"../public/tuiter/virgin-logo.png",
     "userName":"Virgin Galactic",
     "handle":"virgingalactic"
   },
