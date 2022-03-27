@@ -6,7 +6,7 @@ import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
-import Tuiter from "./components/tuiter";
+import Tuiter from "./components/tuiter/tuiter.js";
 
 
 
@@ -18,7 +18,7 @@ function App() {
          <Route path="/hello"
                 exact={true}
                 element={<HelloWorld/>}/>
-         <Route path="/labs"
+         <Route path="/"
                 exact={true}
                 element={<Labs/>}/>
          <Route path="/tuiter"
