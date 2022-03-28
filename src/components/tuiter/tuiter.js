@@ -29,6 +29,12 @@ const Tuiter = () => {
         <WhoToFollowList/>
       </div>
     </div>
+    <Link to="/">
+          Labs
+    </Link> |
+    <Link to="/tuiter">
+          Tuiter
+    </Link>
     </Provider>
   );
 };
