@@ -4,18 +4,20 @@ import Classes from "../labs/classes/index.js"
 import ConditionalOutput from "./conditional-output/index.js"
 import TodoItem from "./todo/TodoItem.js"
 import TodoList from "./todo/TodoList.js"
+import ReduxExamples from "./redux-examples";
 import Styles from "./styles";
 
 
 const Labs = () => {
     return(
-    <React.Fragment>
+    <div>
         <h1>Labs</h1>
 
         <ConditionalOutput/>
         <Styles/>
         <Classes/>
         <TodoList/>
+        <ReduxExamples/>
 
         <Link to="/hello">
               Hello
@@ -23,7 +25,7 @@ const Labs = () => {
         <Link to="/tuiter">
               Tuiter
         </Link>
-    </React.Fragment>
+    </div>
 
     )
 };
