@@ -10,13 +10,13 @@ const NavigationSidebar = (
             <div className={"list-group"}>
                 <a className={"list-group-item"} href="/">
                     <i className={"fab fa-twitter"}></i></a>
-                        <a href="home.html" className={"list-group-item list-group-item-action d-inline-flex"}>
+                        <a href="home.html" className={"list-group-item list-group-item-action d-inline-flex active"}>
                           <i className={"fa fa-home p-1"}></i>
                           <p className={"p-0 m-0 d-none d-xl-block"}>Home</p>
                         </a>
                         <a
                           href="explore.html"
-                          className={"list-group-item list-group-item-action active d-inline-flex"}
+                          className={"list-group-item list-group-item-action d-inline-flex"}
                           aria-current="true"
                         >
                           <i className={"fa fa-hashtag p-1"}></i>

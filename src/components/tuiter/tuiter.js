@@ -3,7 +3,7 @@ import {Provider} from "react-redux";
 import { Link, Outlet } from "react-router-dom";
 import WhoToFollowList from "./who-to-follow-list/who-to-follow-list.js";
 import NavigationSidebar from "./navigation-sidebar";
-//import "./tuiter.css";
+import "./tuiter.css";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
 import {combineReducers, createStore} from "redux";
