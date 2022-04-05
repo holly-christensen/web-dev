@@ -1,5 +1,6 @@
 import posts from '../tuits.js';
-let tuits = posts;
+
+let tuits = JSON.parse(JSON.stringify(posts));
 
 
 const tuitController = (app) => {
@@ -23,7 +24,7 @@ const findTuitsByType = (type) => {
 
 const findAllTuits = (req, res) => {
     const type = req.query.type;
-    if(type) {
+    if (type) {
         res.json(findTuitsByType(type));
         return;
     }
@@ -52,7 +53,6 @@ const updateTuit = (req, res) => {
             usr);
     res.sendStatus(200);
 }
-
 
 
 export default tuitController;

@@ -1,18 +1,11 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats.js"
-import {deleteTuit, findAllTuits}
-    from "../actions/tuits-actions";
+import {deleteTuit} from "../actions/tuits-actions";
 
 
 const TuitListItem = ({tuit}) => {
   const dispatch = useDispatch();
-
-  // const deleteTuit = (tuit) => {
-  //   dispatch({type: 'delete-tuit', tuit})
-  // };
-
-  const likedStatus = tuit.liked ? "wd-tweet-action-heart-active" : "";
-
+  console.log('tuit to render: '+JSON.stringify(tuit));
     return (
             <li>
             <div className={"list-group-item position-relative"}>

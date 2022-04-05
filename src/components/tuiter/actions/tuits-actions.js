@@ -6,11 +6,14 @@ export const FIND_TUIT_BY_ID = 'FIND_TUIT_BY_ID';
 export const UPDATE_TUIT = 'UPDATE_TUIT';
 export const DELETE_TUIT = 'DELETE_TUIT';
 
-export const createTuit = async (dispatch, tuit) => {
-    const newTuit = await service.createTuit(tuit);
+export const createTuit = async (dispatch, newTuit) => {
+    console.log('newTuit payload: '+JSON.stringify(newTuit));
+    const tuit = await service.createTuit(newTuit.tuit);
+    console.log('service response: '+ JSON.stringify(tuit));
+    // newTuit._id = tuit._id;
     dispatch({
         type: CREATE_TUIT,
-        newTuit
+        tuit
     });
 }
 export const findAllTuits = async (dispatch) => {
@@ -34,7 +37,6 @@ export const updateTuit = async (dispatch, tuit) => {
         type: UPDATE_TUIT,
         tuit
     });
-
 }
 export const deleteTuit = async (dispatch, tuit) => {
     const response = await service.deleteTuit(tuit);
