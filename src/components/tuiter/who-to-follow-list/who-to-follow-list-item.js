@@ -1,6 +1,7 @@
 const WhoToFollowListItem = (
     {
         who = {
+            _id: "234",
             avatarIcon: '../images/nasa-logo.png',
             userName: 'NASA',
             handle: 'NASA',
@@ -9,7 +10,7 @@ const WhoToFollowListItem = (
     return (
       <div className={"list-group-item"}>
       <div className={"float-start mr-3"}>
-        <img src={who.avatarIcon} width="48" className="rounded-circle float-start" alt="profile-image"/>
+        <img src={who.avatarIcon} width="48" className="rounded-circle float-start" alt={`${who.userName} profile`}/>
       </div>
         <button
           type="button"
