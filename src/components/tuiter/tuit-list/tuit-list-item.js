@@ -1,14 +1,15 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats.js"
-
+import {deleteTuit, findAllTuits}
+    from "../actions/tuits-actions";
 
 
 const TuitListItem = ({tuit}) => {
   const dispatch = useDispatch();
 
-  const deleteTuit = (tuit) => {
-    dispatch({type: 'delete-tuit', tuit})
-  };
+  // const deleteTuit = (tuit) => {
+  //   dispatch({type: 'delete-tuit', tuit})
+  // };
 
   const likedStatus = tuit.liked ? "wd-tweet-action-heart-active" : "";
 
@@ -16,11 +17,10 @@ const TuitListItem = ({tuit}) => {
             <li>
             <div className={"list-group-item position-relative"}>
 
-                  <div className="position-absolute top-0 end-0 p-2"
-                       onClick={() => deleteTuit}>
-                    <i onClick={() =>
-                           deleteTuit(tuit)}
-                           className="fa fa-trash-alt p-2"></i>
+                  <div className="position-absolute top-0 end-0 p-2">
+                      <i className="fa fa-trash-alt p-2 float-end"
+                         onClick={() => deleteTuit(
+                             dispatch, tuit)}> </i>
                   </div>
 
                   <div className={"me-2 float-start"}>
