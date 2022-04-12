@@ -1,4 +1,4 @@
-import * as service from '../../../server/services/tuits-service.js';
+import * as service from '../../../services/tuits-service.js';
 
 export const CREATE_TUIT = 'CREATE_TUIT';
 export const FIND_ALL_TUITS = 'FIND_ALL_TUITS';
