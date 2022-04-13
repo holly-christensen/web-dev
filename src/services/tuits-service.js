@@ -8,7 +8,6 @@ const TUITS_API = `${API_BASE}/tuits`;
 export const createTuit = async (tuit) => {
     console.log('in service: '+tuit)
     const newTuit = {
-        _id: (new Date()).getTime() + '',
         topic: null,
         postedBy: {
             username: "User Name"

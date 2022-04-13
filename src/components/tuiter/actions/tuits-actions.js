@@ -7,9 +7,8 @@ export const UPDATE_TUIT = 'UPDATE_TUIT';
 export const DELETE_TUIT = 'DELETE_TUIT';
 
 export const createTuit = async (dispatch, newTuit) => {
-    console.log('newTuit payload: '+JSON.stringify(newTuit));
+    // console.log('newTuit payload: '+JSON.stringify(newTuit));
     const tuit = await service.createTuit(newTuit.tuit);
-    console.log('service response: '+ JSON.stringify(tuit));
     // newTuit._id = tuit._id;
     dispatch({
         type: CREATE_TUIT,
